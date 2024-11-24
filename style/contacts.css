@@ -1,0 +1,109 @@
+
+#contacts-text {
+    font:var(--subtitle);
+    color: var(--purple);
+    display: flex;
+    justify-content: center;
+    
+}
+
+#contacts-text2{
+    font:var(--title-md);
+    color: var(--gray-600);
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+#contacts-text3{
+    font:var(--text-md);
+    color: var(--gray-500);
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+.contacts-card img{
+    width: 28px;
+    height: 28px;
+}
+.contacts-card{
+    margin-top: ;
+    width: 400px;
+    height: 48px;
+    border: solid var(--gray-400);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font:var(--text-md)
+}
+
+
+/* Centraliza o container */
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../assets/Background_Contacts.png);
+    width: 1366px;
+    height: 787px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+/* Estilo das primeiras três divs */
+.item {
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Estilo das últimas quatro divs */
+.hoverable {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 68px;
+    padding: 10px 20px;
+    border: 2px solid transparent; /* Contorno inicial invisível */
+    border-radius: 5px;
+    background-color: var(--gray-300);
+    transition: all 0.3s ease;
+    font: var(--text-md);
+}
+
+/* Hover das últimas quatro divs */
+.hoverable:hover {
+    border-color: #007BFF; /* Contorno azul no hover */
+    cursor: pointer;
+}
+
+/* Estilo dos ícones nas divs hoverable */
+.hoverable img {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s ease;
+}
+
+/* Mudança nos ícones durante o hover */
+.hoverable:hover img {
+    filter: invert(30%) sepia(88%) saturate(300%) hue-rotate(200deg) brightness(90%) contrast(85%);
+}
+
+/* Estilo do texto nas últimas quatro divs */
+.hoverable p {
+    margin: 0;
+    font-size: 16px;
+    color: var(--gray-500);
+    display: flex;
+    margin-right: 250px;
+}
+
+/* Hover no texto */
+.hoverable:hover p {
+    color: #007BFF;
+}
+#teste{
+ margin-top: 48px ;
+}

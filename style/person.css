@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1366px;
+    height: 750px;
+}
+
+#person {
+    background-image: url(../assets/bg_intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#pic {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+
+#text1 {
+    display: flex;
+    margin-top: 56px;
+    justify-content: center;
+    font: var(--subtitle);
+    color: var(--gray-500);
+    gap: 56px;
+
+
+
+}
+
+.destaque {
+    color: var(--red);
+}
+
+#text2 {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    font: var(--title-lg);
+    color: var(--gray-600);
+}
+
+#text3 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+    font: var(--text-sm);
+    color: var(--gray-400);
+
+}
+
+.github-button {
+
+    display: flex;
+    background-color: var(--gray-300);
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 20px;
+    font: var(--text-md);
+    color: var(--gray-500);
+    width: 140px;
+    gap: 4px;
+    margin-left: 20px;
+}
+
+
+
+#dev {
+    display: flex;
+    margin-top: 80px;
+    flex-direction: row;
+    
+   
+}
+
+#github{
+    margin-left: 300px;
+    width: 120px;
+}
+#html{
+    width: 110px;
+    margin-left: 16px;
+}
+#css{
+    width: 100px;
+    margin-left: 16px;
+}
+#react{
+    width: 120px;
+    margin-left: 16px;
+}
+#node{
+    width: 130px;
+    margin-left: 16px;
+}
+
+#seta{
+    display: flex;
+    justify-content: center;
+    margin-top: 135px;
+}

@@ -1,0 +1,71 @@
+.container-trampo {
+    display: flex;
+    background-color: var(--gray-200);
+    width: 1366px;
+    height: 917px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    
+}
+
+
+.card {
+    width: 330px;
+    margin-top: 56px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: var(--gray-300);
+    border-radius: 3%;
+
+
+}
+
+.top-image {
+    width: 306px;
+    height: 156px;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 3%;
+
+}
+
+.title {
+    margin: 10px 0 5px;
+    font: var(--title-sm);
+    text-align: center;
+    color: var(--gray-600);
+}
+
+.text-below {
+    text-align: center;
+    font: var(--text-sm);
+    color: var(--gray-600);
+}
+
+#card1 {
+    display: flex;
+    font: var(--subtitle);
+    justify-content: center;
+    color: var(--red);
+}
+
+#card2 {
+    display: flex;
+    margin-top: 8px;
+    justify-content: center;
+    font: var(--title-md);
+    color: var(--gray-600);
+}
